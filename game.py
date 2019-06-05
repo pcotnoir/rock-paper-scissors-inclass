@@ -12,7 +12,8 @@ print("USER CHOSE:",user_choice)
 
 # VALIDATE INPUTS
 
-if user_choice in ["rock","paper","scissors"]: #in operator looks for a value or word in a list
+options = ["rock","paper","scissors"]
+if user_choice in options: #in operator looks for a value or word in a list
     pass #or use print("VALID") to show VALID when rock, paper, scissors is correctly inputted.
 else:
         print("INVALID SELECTION, PLEASE TRY AGAIN...")
